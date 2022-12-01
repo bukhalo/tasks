@@ -1,0 +1,8 @@
+query ProjectPage($filter: TaskFilter) {
+  taskCollection(filter: $filter) {
+    ...TaskFields
+  }
+  projectCollection {
+    ...ProjectFields
+  }
+}

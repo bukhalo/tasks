@@ -1,0 +1,27 @@
+.task {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  box-shadow: none;
+  border-radius: 0.7rem;
+  transition: box-shadow 0.15s linear;
+}
+
+.active {
+  box-shadow: var(--ds-shadow-raised, 0 4px 8px -2px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31))
+}
+
+.title {
+  width: 100%;
+  margin: 0;
+  padding-top: 1.4rem;
+  padding-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

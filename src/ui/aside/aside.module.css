@@ -1,0 +1,27 @@
+.asideVisible {
+  display: flex !important;
+}
+
+.aside {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .aside {
+    display: flex;
+    flex: 0 0 auto;
+  }
+}
+
+.menu {
+  margin-top: 2rem;
+}
+
+.menu-title {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.menu-title--active {
+  color: red;
+}
